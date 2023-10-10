@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="google" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 讓讓瀏覽器容易找到你的網站 -->
+    <meta name="robots" content="index,follow" />
+    <base target="_blank" href="" />
+    <!-- 描述自己的網站 -->
+    <meta name="description" content="" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div class="key" data-key="65">
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div class="key" data-key="83">
+        <kbd>S</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div class="key" data-key="68">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div class="key" data-key="70">
+        <kbd>F</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div class="key" data-key="71">
+        <kbd>G</kbd>
+        <span class="sound">boom</span>
+      </div>
+      <div class="key" data-key="72">
+        <kbd>H</kbd>
+        <span class="sound">ride</span>
+      </div>
+      <div class="key" data-key="74">
+        <kbd>J</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div class="key" data-key="75">
+        <kbd>K</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div class="key" data-key="76">
+        <kbd>L</kbd>
+        <span class="sound">tink</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="./audio/Clap.wav"></audio>
+    <audio data-key="83" src="./audio/HiHat.wav"></audio>
+    <audio data-key="68" src="./audio/Kick.wav"></audio>
+    <audio data-key="70" src="./audio/OpenHat.wav"></audio>
+    <audio data-key="71" src="./audio/Boom.wav"></audio>
+    <audio data-key="72" src="./audio/Ride.wav"></audio>
+    <audio data-key="74" src="./audio/Snare.wav"></audio>
+    <audio data-key="75" src="./audio/Tom.wav"></audio>
+    <audio data-key="76" src="./audio/Tink.wav"></audio>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
